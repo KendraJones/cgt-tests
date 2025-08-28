@@ -21,3 +21,4 @@ To run the tests locally:
 
 1. Install Cypress, Gherkin, Typescript
 2. 
+"# cgt-tests" 
