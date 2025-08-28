@@ -1,7 +1,7 @@
-# Kendralee Jones
-# **Quality Assurance Engineer**
+# **Kendralee Jones**
+## Quality Assurance Engineer
 [kendralee.jones81@gmail.com](mailto:kendralee.jones81@gmail.com) | SLC, Utah | 
-[LinkedIn](https://www.linkedin.com/kendralee-jones-219a37208)
+[LinkedIn](https://www.linkedin.com/in/kendralee-jones-219a37208/)
 
 ## Professional Summary
 Results-driven QA Engineer with over six years of experience designing comprehensive testing frameworks, streamlining automation workflows, and partnering with cross-functional teams to enhance product reliability and performance.
