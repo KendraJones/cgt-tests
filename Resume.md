@@ -1,6 +1,6 @@
 # **Kendralee Jones**
 ## Quality Assurance Engineer
-[kendralee.jones81@gmail.com](mailto:kendralee.jones81@gmail.com) | SLC, Utah | 
+[kendeej@proton.me](mailto:kendeej@proton.me) | SLC, Utah | 
 [LinkedIn](https://www.linkedin.com/in/kendralee-jones-219a37208/)
 
 ## Professional Summary
