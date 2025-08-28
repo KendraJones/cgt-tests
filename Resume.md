@@ -1,5 +1,5 @@
 # Kendralee Jones
-**Quality Assurance Engineer**
+# **Quality Assurance Engineer**
 [kendralee.jones81@gmail.com](mailto:kendralee.jones81@gmail.com) | SLC, Utah | 
 [LinkedIn](https://www.linkedin.com/kendralee-jones-219a37208)
 
