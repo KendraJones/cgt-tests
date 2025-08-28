@@ -1,0 +1,22 @@
+# Node
+node_modules/
+dist/
+build/
+coverage/
+npm-debug.log*
+yarn-error.log*
+
+# Cypress
+cypress/screenshots/
+cypress/videos/
+.cypress-cache/
+
+# Env/Secrets
+.env
+.env.*
+!.env.example
+
+# OS/Editor junk
+.DS_Store
+Thumbs.db
+.vscode/
