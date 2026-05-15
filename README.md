@@ -50,7 +50,7 @@ Run tests with the Cypress UI:
 ```bash
 npm run cypress:open
 
-## What I'm Testing
+### What I'm testing
 
 This project tests against several practice and demo web applications:
 
