@@ -1,4 +1,4 @@
-Feature: 
+Feature: Successful Funds Transfer
 
 Scenario: Successfully fund a transfer
     Given I am on the Transfer Funds screen

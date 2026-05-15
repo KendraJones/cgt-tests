@@ -49,3 +49,26 @@ npm run test
 Run tests with the Cypress UI:
 ```bash
 npm run cypress:open
+
+## What I'm Testing
+
+This project tests against several practice and demo web applications:
+
+### [Demoblaze](https://www.demoblaze.com)
+- Adding items to cart (cell phone, laptop, monitor)
+
+### [Practice Test Automation (PTA)](https://practicetestautomation.com)
+- Successful login and logout
+- Invalid login scenarios (bad username, bad password, blank fields)
+- Login form validation (blank fields, short passwords, whitespace-only input)
+
+### [HTML Form Practice](https://testpages.herokuapp.com/styled/basic-html-form-test.html)
+- Form submission with checkboxes and dropdowns
+- Data-driven form submission using Scenario Outline with multiple credential sets
+
+### [Expand Testing](https://practice.expandtesting.com/dropdown)
+- Dropdown selection and value verification
+
+### [QBank](https://qbank.accelq.com/)
+- Successfully fund transfer
+- Session timeout after inactivity
