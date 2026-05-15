@@ -1,5 +1,5 @@
 import { Given, When, Then } from '@badeball/cypress-cucumber-preprocessor';
-import { homePage } from '../Pages/homePage';
+import { homePage } from '../Pages/HomePage';
 import { productPage } from '../Pages/ProductPage';
 import { cartPage } from '../Pages/CartPage';
 

@@ -51,7 +51,7 @@ Run tests with the Cypress UI:
 npm run cypress:open
 ```
 
-### What I'm testing
+## What I'm testing
 
 This project tests against several practice and demo web applications:
 
