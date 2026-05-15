@@ -1,5 +1,11 @@
 # Cypress, Gherkin, and TypeScript Web Testing
 
+![Cypress](https://img.shields.io/badge/Cypress-15.0.0-brightgreen)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.9.3-blue)
+![Node](https://img.shields.io/badge/Node-22.15.1-brightgreen)
+![Cucumber](https://img.shields.io/badge/Cucumber-Gherkin-23D96C)
+![License](https://img.shields.io/badge/License-ISC-yellow)
+
 ## This project serves as a demonstration of BDD-style automated testing using modern tools. It is intended for my own educational and portfolio purposes. I will be continuously adding to this.
 
 ## Technologies Used
