@@ -1,27 +1,30 @@
 import { Given, When, Then } from "@badeball/cypress-cucumber-preprocessor";
+import { basicFormPage } from "../Pages/BasicFormPage";
 
 Given("I open the basic form page", () => {
-    cy.visit("https://testpages.herokuapp.com/styled/basic-html-form-test.html");
+  basicFormPage.visit();
 });
 
 When("I fill in the form fields", () => {
-    cy.get("input[name='username']").type("myUser");
-    cy.get("input[name='password']").type("myPassword");
-    cy.get("textarea[name='comments']").type("This is a test comment.");
+  basicFormPage.fillForm("myUser", "myPassword", "This is a test comment.");
 });
 
 When("I check the first checkbox", () => {
-    cy.get("input[name='checkboxes[]']").first().check();
+  basicFormPage.checkCheckbox();
 });
 
-When("I select Drop Down Item 2 from the dropdown", () => {
-    cy.get('[value="ms2"]').click();
+When("I select the {string} from the dropdown", (option: string) => {
+  basicFormPage.selectDropdown(option);
 });
 
 When("I submit the form", () => {
-    cy.get('[type="submit"]').click();
+  basicFormPage.submit();
+});
+
+When("I fill in username {string} and password {string}", (username: string, password: string) => {
+  basicFormPage.fillForm(username, password, "Generated comment");
 });
 
 Then("I should see the form submission confirmation", () => {
-    cy.contains("Processed Form Details").should("exist"); // Title of the confirmation page
+  basicFormPage.shouldSeeConfirmation();
 });

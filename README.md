@@ -10,7 +10,36 @@
 
 ## Project Structure
 
-- `features/` – Gherkin feature files describing test scenarios
-- `step-definitions/` – TypeScript implementations of Gherkin steps
-- `cypress/` – Cypress configuration and support files
-- `tests/` – Additional TypeScript-based test logic and utilities
+- `cypress/e2e/Features/` – Gherkin feature files describing test scenarios
+- `cypress/e2e/Step-Definitions/` – TypeScript implementations of Gherkin steps
+- `cypress/e2e/Pages/` - Page objects models that encapsulate element selectors and actions for each page under test
+- `cypress/` – Root directory containing all test files, page objects, and support files
+
+## How to Run
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) v22.18.0 or higher
+- npm
+
+### Installation
+1. Clone the repository:
+```bash
+   git clone https://github.com/KendraJones/cgt-tests.git
+```
+2. Navigate to the project directory:
+```bash
+   cd cgt-tests
+```
+3. Install dependencies:
+```bash
+   npm install
+```
+
+### Running Tests
+Run tests in headless mode:
+```bash
+npm run test
+```
+Run tests with the Cypress UI:
+```bash
+npm run cypress:open

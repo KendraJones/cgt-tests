@@ -1,13 +1,14 @@
 import { Given, When, Then } from "@badeball/cypress-cucumber-preprocessor";
+import { dropdownPage } from "../Pages/DropdownPage";
 
 Given('I open the dropdown page', () => {
-    cy.visit('https://the-internet.herokuapp.com/dropdown');
+    dropdownPage.visit();
 });
 
 When('I select {string} from the dropdown', (option: string) => {
-    cy.get('#dropdown').select(option);
+    dropdownPage.selectOption(option);
 });
 
 Then('the dropdown value should be {string}', (value: string) => {
-    cy.get('#dropdown').should('have.value', value);
+    dropdownPage.shouldHaveValue(value);
 });
