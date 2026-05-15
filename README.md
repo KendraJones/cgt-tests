@@ -6,8 +6,6 @@
 ![Cucumber](https://img.shields.io/badge/Cucumber-Gherkin-23D96C)
 ![License](https://img.shields.io/badge/License-ISC-yellow)
 
-📄 [View My Resume](Resume.md)
-
 ## This project serves as a demonstration of BDD-style automated testing using modern tools. It is intended for my own educational and portfolio purposes. I will be continuously adding to this.
 
 ## Technologies Used

@@ -10,6 +10,7 @@ yarn-error.log*
 cypress/screenshots/
 cypress/videos/
 .cypress-cache/
+Resume.md
 
 # Env/Secrets
 .env
