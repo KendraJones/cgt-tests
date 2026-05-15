@@ -49,6 +49,7 @@ npm run test
 Run tests with the Cypress UI:
 ```bash
 npm run cypress:open
+```
 
 ### What I'm testing
 
